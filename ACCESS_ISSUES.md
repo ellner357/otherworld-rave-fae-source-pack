@@ -17,6 +17,8 @@
 - One loose Google Doc named `Otherworld Rave-Fae Source Pack - Capability Preflight Test` exists, but it is an abandoned test doc, not a useful mirror.
 - Six useful Google Docs mirrors were later created during v0.5.0 and recorded in `google-docs-export/google-docs-mirror-links.md`.
 - No source access issue blocked the v1.0.0 build.
+- Gmail send and draft tools were present, but both final send and final draft creation returned `401: Reauthentication required`.
+- Because Gmail reauthentication is required, `EMAIL_REPORT.md` is the final fallback report.
 
 ## Recovery Decision
 

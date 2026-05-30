@@ -10,8 +10,8 @@ Report date: 2026-05-29
 - Default branch: `main`
 - Main branch seed commit: `a1df9ab7eb73822ecd658c5f43033591604ffb44`
 - Recovery audit commit: `3d16c4de155a693eed7034f925a5bfe6191a22e2`
-- Latest content commit before final report closeout: `30491e5`
-- Note: the final report commit cannot self-reference its own hash; the exact final branch head is reported in the final sent email and can be checked with `git log -1`.
+- v1.0.0 build commit: `88b6c1fc016e35766e4308af63ef64348c2681c5`
+- Note: this fallback-report update is committed after the v1.0.0 build commit; the exact final branch head can be checked with `git log -1`.
 
 ## What The Shop Codex Completed
 
@@ -62,7 +62,9 @@ Version reached: 1.0.0 first usable source pack.
 
 ## Access Issues
 
-- GitHub, Drive, Google Docs, and Gmail tools were available.
+- GitHub, Drive, and Google Docs were available.
+- Gmail send and draft tools were present, but both returned `401: Reauthentication required` during final reporting.
+- Because Gmail requires reauthentication, this `EMAIL_REPORT.md` file is the fallback final report.
 - The prompt-listed `Time Line for OW 2022` ID with capital `Z` failed.
 - The exact-title Drive search found the working lowercase-z spreadsheet ID.
 - No access issue blocked the build.
