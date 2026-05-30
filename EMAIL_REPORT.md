@@ -75,6 +75,17 @@ Version reached: 1.0.0 first usable source pack.
 - Those details were not copied into character-facing docs.
 - Private material was reduced to broad patterns only: care, preparation, volunteer labor, thresholds, and safety.
 
+## Post-merge setup prep completed
+
+The v1.0.1 setup-prep pass added plain-English setup and maintenance guides on `main`:
+
+- `SETUP_NEXT_STEPS.md`
+- `GEMINI_UPLOAD_PACK.md`
+- `NOTEBOOKLM_SETUP_PACK.md`
+- `FUTURE_CHANGE_WORKFLOW.md`
+
+These files tell Matt what to open first, which existing Google Docs mirror links to use, how to create the Gemini Gem, what to upload first, how to use NotebookLM as a strict-source research library, and how to make future changes without breaking changelog/rollback discipline.
+
 ## Next Recommended Action
 
-Review the recovery branch, then merge or open a PR when satisfied. After merge, set up the Gemini Gem using `gemini/gem-instructions.md` and upload the priority files from `gemini/gem-knowledge-file-list.md`.
+Open `SETUP_NEXT_STEPS.md`, then set up the Gemini Gem with `gemini/gem-instructions.md` and `GEMINI_UPLOAD_PACK.md`. Use `NOTEBOOKLM_SETUP_PACK.md` when creating the strict-source NotebookLM library.

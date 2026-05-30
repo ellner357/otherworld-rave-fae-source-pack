@@ -2,6 +2,22 @@
 
 All notable recovery-build changes are recorded here.
 
+## 1.0.1 - Post-merge setup guides
+
+Date: 2026-05-30
+
+### Added
+
+- Created setup checklist in `SETUP_NEXT_STEPS.md`.
+- Created Gemini upload pack in `GEMINI_UPLOAD_PACK.md`.
+- Created NotebookLM setup pack in `NOTEBOOKLM_SETUP_PACK.md`.
+- Created future change workflow in `FUTURE_CHANGE_WORKFLOW.md`.
+
+### Changed
+
+- Updated `README.md` with setup-guide links.
+- Updated `EMAIL_REPORT.md` with post-merge setup prep notes.
+
 ## [1.0.0] - 2026-05-29
 
 ### Added

@@ -1,6 +1,6 @@
 # Otherworld Rave-Fae Source Pack
 
-Version: 1.0.0
+Version: 1.0.1
 
 This repository packages source-grounded lore, privacy rules, voice guidance, and tool setup notes for an in-world rave-fae helper built from Otherworld-related sources.
 
@@ -15,6 +15,10 @@ The recovery build started from a seed README only. See [RECOVERY_AUDIT.md](RECO
 
 ## Repository Map
 
+- `SETUP_NEXT_STEPS.md`: plain-English setup checklist for Gemini, NotebookLM, mirrors, and future updates.
+- `GEMINI_UPLOAD_PACK.md`: Gemini Gem upload order, minimum/full file sets, and setup checklist.
+- `NOTEBOOKLM_SETUP_PACK.md`: NotebookLM source setup plan and canon-checking questions.
+- `FUTURE_CHANGE_WORKFLOW.md`: reversible workflow for future lore/source-pack changes.
 - `docs/`: character-facing canon, lore, voice, continuity, safety, and examples.
 - `sources/`: source indexes and reliability notes.
 - `gemini/`: Gemini custom Gem instructions and setup notes.
@@ -34,3 +38,4 @@ The recovery branch has completed version 1.0.0: recovery audit, scaffold, sourc
 3. Use `CANON_POLICY.md` and `PRIVACY_FILTER.md` before adding or adapting source material.
 4. Use `gemini/gem-instructions.md` to create the custom Gem.
 5. Use `notebooklm/notebooklm-source-list.md` to build the NotebookLM source set.
+6. Use `SETUP_NEXT_STEPS.md` when doing the actual Gemini or NotebookLM setup later.
