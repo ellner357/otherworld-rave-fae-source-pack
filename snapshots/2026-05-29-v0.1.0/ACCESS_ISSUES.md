@@ -1,0 +1,21 @@
+# Access Issues
+
+## Confirmed Access
+
+- GitHub repo read/write: available.
+- GitHub branch creation: available.
+- GitHub PR inspection: available.
+- Google Drive read access: available for verified source links.
+- Google Docs create/update tools: available.
+- Gmail send and draft tools: available.
+
+## Known Issues
+
+- The prompt-listed `Time Line for OW 2022` spreadsheet ID with capital `Z` failed with 404.
+- The same title was found by Drive search with lowercase `z` in the ID: `11K2ygKL4t56yUFJ58X1i3_1cSBzREbIaNUAPG59VTnE`.
+- `google-docs-export/google-docs-mirror-links.md` did not exist during the audit.
+- One loose Google Doc named `Otherworld Rave-Fae Source Pack - Capability Preflight Test` exists, but it is an abandoned test doc, not a useful mirror.
+
+## Recovery Decision
+
+Continue on `home-resume-2026-05-29-2007`. Do not write recovery build content directly to `main`.
